@@ -1,0 +1,26 @@
+{
+  "name": "qa-engineer-assignment",
+  "version": "1.0.0",
+  "description": "Welcome to the QA Engineer tech test. We expect the work to take around 1 to 1.5 hours, and we thank\r you in advance for taking that time for us!",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitvitorbin/qa-engineer-assignment.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Vitor Binsfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitvitorbin/qa-engineer-assignment/issues"
+  },
+  "homepage": "https://github.com/gitvitorbin/qa-engineer-assignment#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
