@@ -2,7 +2,7 @@
 
   -  Quality Assurance engineer test
   -  Automated Testing Assignment
-  -  About the solution for this assignment
+  -  (NEW) About the solution for this assignment
 
 \
 &nbsp;
@@ -26,5 +26,5 @@ $ python -m http.server 8000
 You now have a working frontend app that you will write some kind of automated user acceptence tests for.
 The language of framework you use does not matter, but we prefer JS, PHP or Python.
 
-### About the solution for this assignment
+### (NEW) About the solution for this assignment
 To read more details about the solution applied (chosen framework, project organization, installation, running the tests and viewing the execution reports) please access the README-test.me file on "tests/" folder of this repository.
