@@ -22,31 +22,33 @@ The tests are in the "cypress/integration/specs" folder where they are divided i
   - Regression (file regression.spec.js): Regression testing is a more complete test than the smoke test. It is performed to check whether the changed code affects the existing features or not. It ensures an application still functions as expected after any code changes, updates, or improvements. Regression testing is responsible for the overall stability and functionality of the existing features. Whenever a new modification is added to the code, regression testing is applied to guarantee that after each update, the system stays sustainable under continuous improvements.
 
 ### Installing
-Install [Node](https://nodejs.org/en/download/) (npm package comes with it) and run the below command:
+Install [Node](https://nodejs.org/en/download/) (npm package comes with it) then navigate to the "tests" folder and run the command below:
 
 ```
 $ npm install
 ```
 
-The command above will download and install Cypress, making your environment ready to run the tests.
+This command will download and install Cypress, making your environment ready to run the tests.
 
 ### Running the tests
-The next two commands allow tests to be run individually or all at once, in headless mode.
+***Important:*** Before running the tests, make sure the application server is started (for more information please access the application's README.md).
 
-Run the command below to run the Smoke Test only:
+Headless browser automation uses a web browser for regression tests but skips loading the browsers’ UI. That means the HTML page being tested isn’t rendered (so everything runs faster) and your tests bypass interacting with the page to manipulate the browser more directly (eliminating failures due to UI-related interactions). Your regression tests are both more efficient and more reliable. The next commands presented allow the tests to be run individually or all at once, in headless mode.
+
+Run the command below to run the Smoke Test only in headless mode:
 ```
 $ npx cypress run --spec "cypress/integration/specs/smoke-test.spec.js
 ```
-Run the command below to run only the Regression Test:
+Run the command below to run only the Regression Test in headless mode:
 ```
 npx cypress run --spec "cypress/integration/specs/regression.spec.js
 ```
-Run the command below to run all tests:
+Run the command below to run all tests in headless mode:
 ```
 npx cypress run
 ```
 
-If you want to choose which tests you want to run through the Cypress graphical interface, run the following command:
+Now, if you want to choose which tests you want to run through the Cypress graphical interface, run the following command:
 ```
 npx cypress open
 ```
