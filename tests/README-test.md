@@ -41,7 +41,7 @@ You can either run the automated tests headless or via graphical interface. Head
 
 The next commands presented allow the tests to be run individually or all at once, in headless mode.
 
-Run the command below to run the Smoke Test only in headless mode:
+Run the command below to run only the Smoke Test in headless mode:
 ```
 $ npx cypress run --spec cypress/integration/specs/smoke-test.spec.js
 ```
@@ -49,9 +49,9 @@ Run the command below to run only the Regression Test in headless mode:
 ```
 npx cypress run --spec cypress/integration/specs/regression.spec.js
 ```
-Run the command below to run all tests in headless mode:
+Run the command below to run all tests in headless mode (this command will make regression test run and, after, regression):
 ```
-npx cypress run
+npx cypress run --spec cypress/integration/specs/*.spec.js
 ```
 
 Now, if you want to choose which tests you want to run through the Cypress graphical interface, run the following command:
