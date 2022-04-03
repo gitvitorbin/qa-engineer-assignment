@@ -50,4 +50,4 @@ If you want to choose which tests you want to run through the Cypress graphical 
 ```
 npx cypress open
 ```
-For more information about the use of the command line in Cypress, access the official documentation at [this](https://docs.cypress.io/guides/guides/command-line) link.
+For more information about the use of the command line in Cypress, access the official documentation on [this](https://docs.cypress.io/guides/guides/command-line) link.

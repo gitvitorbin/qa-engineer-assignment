@@ -1,5 +1,7 @@
 /node_modules
 /tests/node_modules
+/tests/cypress/support
+/tests/cypress/fixtures
 npm-debug.log
 .DS_Store
 
