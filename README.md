@@ -1,3 +1,13 @@
+# Summary:
+
+  -  Quality Assurance engineer test
+  -  Automated Testing Assignment
+  -  About the solution for the assignment
+
+\
+&nbsp;
+
+
 # Quality Assurance engineer test
 Welcome to the QA Engineer tech test. We expect the work to take around 1 to 1.5 hours, and we thank
 you in advance for taking that time for us!
@@ -15,3 +25,6 @@ $ python -m http.server 8000
 
 You now have a working frontend app that you will write some kind of automated user acceptence tests for.
 The language of framework you use does not matter, but we prefer JS, PHP or Python.
+
+### About the solution for the assignment
+To learn more details about the applied solution, such as the chosen framework, project organization, installation, running the tests and viewing the execution reports, access the other README-test.me file inside the "tests" folder of this repository.
